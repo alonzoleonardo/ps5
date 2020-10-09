@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/corner_cv"
+    android:layout_marginBottom="@dimen/margen_cv"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgFotoMascota"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imgsize"
+            android:src="@drawable/diesel"
+            android:layout_gravity="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:id="@+id/btnhuesolike"
+                android:layout_width="@dimen/hueso_size"
+                android:layout_height="@dimen/hueso_size"
+                android:src="@drawable/huesolike"
+                android:layout_margin="@dimen/margen_hueso"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_mascota"
+                android:textSize="@dimen/sizeNombreMascota"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="cursive"
+                android:padding="@dimen/margen_hueso"
+                tools:targetApi="jelly_bean"
+                tools:ignore="SpUsage"
+                android:layout_toRightOf="@+id/btnhuesolike"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tvNumeroLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numero_likes"
+                android:textSize="@dimen/sizeNumLikes"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="monospace"
+                android:layout_margin="@dimen/margen_hueso"
+                tools:targetApi="jelly_bean"
+                tools:ignore="SpUsage"
+                android:layout_toLeftOf="@+id/imgNumLikes"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/imgNumLikes"
+                android:layout_width="@dimen/hueso_size"
+                android:layout_height="@dimen/hueso_size"
+                android:src="@drawable/huesonumlike"
+                android:layout_margin="@dimen/margen_hueso"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

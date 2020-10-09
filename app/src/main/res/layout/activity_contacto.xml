@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/paddingActividadContacto"
+    tools:context=".activities.ActivityContacto">
+
+    <LinearLayout
+        android:id="@+id/designLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvTituloContac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloContacto"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorMarron"
+            android:fontFamily="cursive"
+            tools:targetApi="jelly_bean"
+            android:textSize="@dimen/sizetituloContacto"
+            android:layout_marginTop="@dimen/margen_arriba_contacto"
+            android:layout_marginBottom="@dimen/margen_abajo_contacto"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/spaceabajo"
+            >
+
+            <TextView
+                android:layout_width="@dimen/ancho_tv"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/nombre_c"
+                android:textSize="@dimen/size_texto_c"
+
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                android:textColor="@color/colorMarron"
+                />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="@dimen/ancho_edt"
+                android:layout_height="match_parent"
+                android:hint="@string/ingrese_nombre"
+                app:fontFamily="casual"
+                android:textColor="@color/colorAzul"
+                android:textSize="@dimen/size_texto_p"
+                android:text=""
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/spaceabajo"
+            >
+
+            <TextView
+                android:layout_width="@dimen/ancho_tv"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/correo_c"
+                android:textSize="@dimen/size_texto_c"
+
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                android:textColor="@color/colorMarron"
+                />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="@dimen/ancho_edt"
+                android:layout_height="match_parent"
+                android:hint="@string/ingrese_correo"
+                app:fontFamily="casual"
+                android:textColor="@color/colorAzul"
+                android:textSize="@dimen/size_texto_p"
+                android:text=""
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/spaceabajofinal"
+            >
+
+            <TextView
+                android:layout_width="@dimen/ancho_tv"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/mensaje_c"
+                android:textSize="@dimen/size_texto_c"
+
+                android:textStyle="bold"
+                app:fontFamily="casual"
+                android:textColor="@color/colorMarron"
+                />
+
+            <EditText
+                android:id="@+id/etMensaje"
+                android:layout_width="@dimen/ancho_edt"
+                android:layout_height="match_parent"
+                android:hint="@string/ingrese_mensaje"
+                app:fontFamily="casual"
+                android:textColor="@color/colorAzul"
+                android:textSize="@dimen/size_texto_p"
+                android:text=""
+                android:maxLines="4"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar_comentario"
+            android:theme="@style/MiBotonRaised"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

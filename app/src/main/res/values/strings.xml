@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Petagram</string>
+
+    <string name="nombre_mascota">Diesel</string>
+    <string name="numero_likes"> 0 </string>
+
+    <!--PARA MENU-->
+    <string name="favoritos">Favoritos</string>
+    <string name="mcontacto">Contacto</string>
+    <string name="macercade">Acerca de</string>
+    <string name="salir">Salir</string>
+
+
+    <string name="tituloContacto">Formulario Contacto</string>
+    <string name="nombre_c">Nombre: </string>
+    <string name="ingrese_nombre">Ingrese Nombre</string>
+    <string name="correo_c">Correo: </string>
+    <string name="ingrese_correo">Ingrese Correo</string>
+    <string name="mensaje_c">Mensaje: </string>
+    <string name="ingrese_mensaje">Ingrese Mensaje</string>
+
+    <string name="enviar_comentario">Enviar Comentario</string>
+
+    <!--MI BIOGRAFÍA-->
+    <string name="titulo_bio">Autor</string>
+    <string name="biografia">UruAndroid 2020</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>

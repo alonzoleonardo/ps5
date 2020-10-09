@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="relleno_act">10dp</dimen>
+    <dimen name="margen_cv">10dp</dimen>
+    <dimen name="corner_cv">4dp</dimen>
+    <dimen name="imgsize">200dp</dimen>
+    <dimen name="separador_horizontal">4dp</dimen>
+    <dimen name="hueso_size">35dp</dimen>
+    <dimen name="hueso_size_a">25dp</dimen>
+    <dimen name="margenizquierdo">15dp</dimen>
+    <dimen name="sizeNombreMascota">30dp</dimen>
+    <dimen name="sizeNumLikes">26dp</dimen>
+    <dimen name="ancho_texto">145sp</dimen>
+    <dimen name="margen_hueso">15dp</dimen>
+    <dimen name="elevacion_toobar">4dp</dimen>
+
+    <dimen name="paddingActividadContacto">16dp</dimen>
+    <dimen name="sizetituloContacto">40sp</dimen>
+    <dimen name="margen_arriba_contacto">60dp</dimen>
+    <dimen name="margen_abajo_contacto">80dp</dimen>
+
+    <dimen name="size_texto_c">25dp</dimen>
+    <dimen name="size_texto_p">20dp</dimen>
+    <dimen name="cornerboton">50dp</dimen>
+
+    <dimen name="ancho_tv">120dp</dimen>
+    <dimen name="ancho_edt">200dp</dimen>
+
+    <dimen name="spaceabajo">40dp</dimen>
+    <dimen name="spaceabajofinal">60dp</dimen>
+
+
+    <dimen name="tituloBiografia">30dp</dimen>
+    <dimen name="rellenotitleacerca">25dp</dimen>
+    <dimen name="sizeacerca">20dp</dimen>
+
+    <dimen name="rellenofragmlistamasc">10dp</dimen>
+
+    <dimen name="civsize">200dp</dimen>
+    <dimen name="civanchodeborde">4dp</dimen>
+    <dimen name="civradiosombra">10dp</dimen>
+    <dimen name="civtexto">28sp</dimen>
+</resources>

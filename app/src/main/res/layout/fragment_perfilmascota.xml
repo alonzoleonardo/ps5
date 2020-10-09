@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PerfilmascotaFragment"
+    android:orientation="vertical">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civPerfil"
+        android:layout_width="@dimen/civsize"
+        android:layout_height="@dimen/civsize"
+        android:src="@drawable/diesel"
+        app:civ_border_color="@color/colorAzul"
+        app:civ_border_width="@dimen/civanchodeborde"
+        app:civ_shadow= "true"
+        app:civ_shadow_radius="@dimen/civradiosombra"
+        app:civ_shadow_color="@color/colorAzul"
+
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/tvMiMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/nombre_mascota"
+        android:textSize="@dimen/civtexto"
+        android:fontFamily="casual"
+        tools:targetApi="jelly_bean"
+        android:textStyle="bold"
+        android:textColor="@color/colorAzul"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPerfilmascotas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/rellenofragmlistamasc"
+        />
+
+</LinearLayout>
